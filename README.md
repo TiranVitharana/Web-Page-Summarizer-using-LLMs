@@ -21,7 +21,7 @@ Before starting, you should have:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/webpage-summarizer.git
+git clone https://github.com/TiranVitharana/Web-Page-Summarizer-using-LLMs.git
 cd webpage-summarizer
 ```
 
