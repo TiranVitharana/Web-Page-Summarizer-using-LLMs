@@ -14,12 +14,6 @@ GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 google_api_key = os.getenv("GOOGLE_API_KEY")
 gemini = OpenAI(base_url=GEMINI_BASE_URL, api_key=google_api_key)
 
-# Test API connection
-response = gemini.chat.completions.create(
-    model="gemini-2.5-flash-preview-05-20", 
-    messages=[{"role":"user", "content": "what is the most beatiful word in the world?"}]
-)
-print(response.choices[0].message.content)
 
 # We will create a class to represent a Webpage
 
